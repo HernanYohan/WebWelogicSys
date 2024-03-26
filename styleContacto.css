@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    /*Estilo de letra a utilizar*/
+    background-color: rgb(37, 123, 180);
+    /*Color de fondo de la pagina*/
+    color: white;
+    /*Color de letra del cuerpo la pagina*/
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* .nombreClase = para llamas las clases del HTML */
+.container {
+    max-width: 12000px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(Imagenes/fondo3.avif);
+    /*Imagen de fondo de la cabecera de la pagina (Header)*/
+    background-position: center center;
+    /*position de la imagen (Header)*/
+    background-repeat: no-repeat;
+    /*cantidad de veces que se muestra (Header)*/
+    background-size: cover;
+    /*que cubre la imagen (cover = todo)*/
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    /* que tanto porcentaje cubre la imagen hacia abajo  80vh*/
+    padding: 80px 0;
+}
+
+.menu {
+    position: absolute;
+    /*posicion y forma del menu del header */
+    top: 0;
+    /* menu pegado a las margenes */
+    left: 0;
+    /* menu pegado a las margenes */
+    right: 0;
+    /* menu pegado a las margenes */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+
+    color: rgb(13, 190, 52);
+    font-size: 25px;
+    font-weight: 800;
+    margin: 11px;
+
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+    display: block;
+}
+
+/* color del boton cuando pasa por encima" --> */
+.menu .navbar ul li a:hover {
+    color: rgb(13, 190, 52);
+}
+
+
+/* #ID = para llamaR los ID del HTML */
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 250px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-txt {
+    flex-basis: 50%;
+}
+
+.header-txt h1 {
+    font-size: 60px;
+    color: white;
+    line-height: 1.3;
+    /* interlineado */
+    margin-bottom: 25px;
+}
+
+.header-txt span {
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 45px;
+}
+
+.header-txt p {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.butons {
+    display: flex
+}
+
+
+.btn-1,
+.btn-2,
+.btn-3,
+.btn1,
+.btn2 {
+    display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid rgb(13, 190, 52);
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    color: white;
+}
+
+.btn1:hover,
+/*hover(propiedad para el fondo)*/
+.btn2:hover,
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover {
+    /* Fondo del boton cuando se pasa el cursor por encima*/
+    background-color: rgb(13, 190, 52);
+}
+
+
+.btn-3 {
+    display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid  rgb(13, 190, 52);
+    /*color del borde del boton*/
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    color: gray;
+    /*Color de la letra del boton*/
+    cursor: pointer;
+    /*Aparece el cursor encima del boton*/
+}
+
+
+.popular {
+    padding: 100px 0;
+    text-align: center;
+}
+
+h2 {
+    /*Formato titulo 2*/
+    color: white;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
+.popular-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-content img {
+    width: 200px;
+    /*Tamaño de las imagenes del popular content*/
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*Orden de los productos, 3 por faccion en linea*/
+    gap: 50px; /* (gap) espacio entre filas y columnas */
+}
+
+.product-1 {
+    background-color: rgb(39, 100, 141);
+    /*Color de fondo de la seccion de servicios*/
+}
+
+.product-txt {
+    padding: 50px 30px;
+}
+
+h3 {
+    /*Formato titulo 3*/
+    font-size: 20px;
+    color: rgb(13, 190, 52);
+    margin-bottom: 20px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    padding: 150px 300px;
+    /*Espacio entre el body la seccion de comentarios*/
+}
+
+.contact-content {
+    background-color: rgb(39, 100, 141);
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.contact-content2 {
+    background-color: rgb(39, 100, 141);
+    text-align:center;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    /*Boton enviar*/
+    padding: 18px 25px;
+    background-color: white;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+    color: black;
+    font-size: 17px;
+}
+
+
+::placeholder {
+    /*Formato del campo de texto*/
+    color: gray;
+    font-size: 17px;
+    /* especifica la dimensión de la letra*/
+}
+
+
+.footer {
+    display: flex;
+    /*nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la pantalla para estructurar nuestra página web*/
+    justify-content: space-between;
+    /*Añade una separacion*/
+    align-items: center;
+    /*Alinia los elementos*/
+    padding: 50px 0;
+    /*Espacios ArribaAbajo=50px IzquierdaDerecha=0  */
+}
+
+
+.link ul {
+    display: flex;
+    /*se ordenan en linea  */
+}
+
+.link ul li>a {
+    /* Solo afecta lo que va despues del mayor que */
+    font-size: 17px;
+    color: white;
+    margin-right: 20px;
+    /* Espacio entre los elementos */
+}
+
+.link ul li>a:hover {
+    color: rgb(13, 190, 52);
+}
+
+/* Seccion para moviles cuando baje de 991 pixeles */
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+        width: 40px;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color:  rgb(39, 100, 141);
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover {
+        color:  rgb(13, 190, 52);
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt {
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .header-txt h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .butons {
+        justify-content: center;
+    }
+
+    .btn-1:last-of-type {
+        margin-right: 0;
+    }
+
+    .popular {
+        display: none;
+    }
+
+    .product-content {
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px; /* (gap) espacio entre filas y columnas */
+    }
+
+    .product-1 img {
+        width: 100%;
+    }
+
+    .contact{
+        padding: 30px;
+    }
+
+    form{
+        flex-direction: column;
+    }
+
+    .btn-3 {
+        margin-right: 0;
+    }
+
+    input{
+        margin: 0 0 20px 0;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul{
+        margin-top: 20px;
+    }
+
+ 
+
+}

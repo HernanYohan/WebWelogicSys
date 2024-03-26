@@ -1,12 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios</title>
-    <link rel="stylesheet" href="style.css"> <!--href hace referencia a la pagina de estilos a utilizar-->
+    <title>WelogicSys</title>
+    <link rel="stylesheet" href="styleServicios.css"> <!--href hace referencia a la pagina de estilos a utilizar-->
 </head>
 <body>
-    <P>Servicios Page</P>
+    <header class="header"><!--Cabecera de la pagina-->
+        <div class="menu container">
+            <a href="#" class="logo">WelogicSys</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="Imagenes/menu.png" class="menu-icono" alt="menu"><!--imagene Logo-->
+            </label>
+            <nav class="navbar"><!--navbar navegacion en una lista-->
+                <ul><!--(ul)lista ordenada-->
+                    <li><a href="index.html">Inicio</a></li><!--(li)elementos de una lista-->
+                    <li><a href="servicios.html">Servicios</a></li><!--(a)enlaces-->
+                    <li><a href="pqr.html">PQR</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Quienes somos</h1>
+                <p><!--(p)parrafos-->
+                    Welogicsys es una empresa que presta servicios y productos informáticos relacionados a AZURE, AWS, y SAS, nuestro enfoque está relacionado principalmente a soporte, implementación y optimización de las arquitecturas, contamos con más 10 años de experiencia  realizando estas actividades, que nos han hecho expertos en la materia.
+
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn1">
+                        Informacion
+                    </a>
+                    <a href="servicios.html" class="btn2">
+                        Servicios
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="product container"><!--Cuerpo de la pagina-->
+
+        <h2> Todos los servicios </h2>
+
+        <div class="product-content">
+
+            <div class="product-1">
+                <div class="product-txt">
+                    <h3>Arquitectura</h3>
+                    <img src="Imagenes/Arquitectura.png" alt="">
+                    <div class="price">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque explicabo totam in hic autem
+                            quisquam ut error provident aperiam quaerat necessitatibus veniam, odio facilis expedita
+                            molestiae laudantium? Magni, et quod?</p>
+                    </div>
+                    <a href="contacto.html" class="btn-2">Contactar</a>
+                </div>
+
+            </div>
+            <div class="product-1">
+                <div class="product-txt">
+                    <h3>Soporte</h3>
+                    <img src="Imagenes/Soporte.png" alt="">
+                    <div class="price">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic optio ea labore consequatur
+                            iusto quo inventore! Ipsum, quae enim possimus laborum at ex ahysasd, hay ahau repellat voluptate vel aliquam
+                            facere qui iusto?</p>
+                    </div>
+                    <a href="contacto.html" class="btn-2">Contactar</a>
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="product-txt">
+                    <h3>Funcional</h3>
+                    <img src="Imagenes/Funcional.jpg" alt="">
+                    <div class="price">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima recusandae, amet, architecto
+                            voluptate labore eos inventore id consectetur eligendi quo optio? Ex ullam ab libero,
+                            incidunt eos necessitatibus voluptatum minus!</p>
+                    </div>
+                    <a href="contacto.html" class="btn-2">Contactar</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="contact container">
+
+        <div class="contact-content">
+            <h3>Dejanos tu comentario</h3>
+            <form>
+                <input type="email" placeholder="Escribe tu correo"> <!--Tipo de campo de escritura-->
+                <input type="submit" class="btn-3" value="Enviar"><!--Boton-->
+            </form>
+        </div>
+
+    </section>
+
+    <footer class="footer container"><!--Pie de la pagina-->
+        <div class="link">
+            <a href="#" class="logo">WelogicSys</a>
+        </div>
+
+        <div class="link">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="pqr.html">PQR</a></li>
+                <li><a href="contacto.html">Contacto</a></li> 
+            </ul>
+        </div>
+    </footer>
 </body>
+
 </html>
+
+
