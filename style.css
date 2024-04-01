@@ -61,9 +61,11 @@ img {
 
 .logo {
 
-    color: rgb(13, 190, 52);
+    /*color: rgb(13, 190, 52);
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 300;
+    margin: 11px;*/
+    width: 200px;
     margin: 11px;
 
 }
