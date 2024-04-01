@@ -65,7 +65,7 @@ img {
     font-size: 25px;
     font-weight: 800;*/
     margin: 11px;
-    width: 200px;
+    width: 300px;
 }
 
 .menu .navbar ul li {
@@ -103,6 +103,7 @@ img {
 
 .header-content {
     display: flex;
+    text-align: justify;
 }
 
 .header-txt {

@@ -65,7 +65,7 @@ img {
     font-size: 25px;
     font-weight: 800;*/
     margin: 11px;
-    width: 200px;
+    width: 300px;
 }
 
 .menu .navbar ul li {
@@ -103,6 +103,7 @@ img {
 
 .header-content {
     display: flex;
+    text-align: justify;
 }
 
 .header-txt {
@@ -205,6 +206,7 @@ h2 {
 
 .product-1 {
     background-color: rgb(39, 100, 141);
+    text-align: justify;
     /*Color de fondo de la seccion de servicios*/
 }
 
