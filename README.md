@@ -1,1 +1,1 @@
-Pagina Web creada para le empresa WelogicSys
+Pagina Web creada para la empresa WelogicSys
