@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="styleContacto.css"> <!--href hace referencia a la pagina de estilos a utilizar-->
 </head>
+
 <body>
     <header class="header"><!--Cabecera de la pagina-->
         <div class="menu container">
@@ -50,18 +52,33 @@
 
             <div class="contact-content2">
                 <h3>Dejanos tu comentarios</h3>
-                <form>
-                    <input type="email" placeholder="Escribe tu correo"> <!--Tipo de campo de escritura-->
-                    <input type="email" placeholder="Escribe tu numero">
-                    <input type="email" placeholder="Dejanos tu comentario">
-                    <input type="submit" class="btn-3" value="Enviar"><!--Boton-->
-                </form>
-            </div>
-    
+
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                      <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name" />
+                      </li>
+                      <li>
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_mail" />
+                      </li>
+                      <li>
+                        <label for="msg">Mensaje:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                      </li>
+                      <li>
+                        <input type="submit" class="button" value="Enviar"><!--Boton-->
+                      </li>
+                    </ul>
+                  </form>
+                  
+               </div>
+
         </section>
     </main>
 
-    
+
 
     <footer class="footer container"><!--Pie de la pagina-->
         <div class="link">
@@ -73,9 +90,10 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
                 <li><a href="pqr.html">PQR</a></li>
-                <li><a href="contacto.html">Contacto</a></li> 
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </div>
     </footer>
 </body>
+
 </html>
