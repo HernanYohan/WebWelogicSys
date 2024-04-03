@@ -237,7 +237,7 @@ form {
     width: 400px;
     /* Esquema del formulario */
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(13, 190, 52);
     border-radius: 1em;
 }
 
@@ -269,13 +269,13 @@ textarea {
     box-sizing: border-box;
 
     /* Hacer coincidir los bordes del campo del formulario */
-    border: 1px solid #999;
+    border: 1px solid rgb(13, 190, 52);
 }
 
 input:focus,
 textarea:focus {
     /* Destacado adicional para elementos que tienen el cursor */
-    border-color: #000;
+    border-color: rgb(13, 190, 52);
 }
 
 textarea {
@@ -390,7 +390,7 @@ input {
     }
 
     .header-txt {
-        text-align: center;
+        text-align: justify;
         flex-basis: 100%;
     }
 

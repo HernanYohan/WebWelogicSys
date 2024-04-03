@@ -12,7 +12,7 @@
 body {
     font-family: "Poppins", sans-serif;
     /*Estilo de letra a utilizar*/
-    background-color: rgb(37, 123, 180);
+    background-color:  rgb(39, 100, 141);
     /*Color de fondo de la pagina*/
     color: white;
     /*Color de letra del cuerpo la pagina*/
@@ -30,7 +30,7 @@ img {
 }
 
 .header {
-    background-image: url(Imagenes/fondo3.avif);
+    background-image: url(Imagenes/fondo10.webp);
     /*Imagen de fondo de la cabecera de la pagina (Header)*/
     background-position: center center;
     /*position de la imagen (Header)*/
@@ -107,6 +107,7 @@ img {
 .header-content {
     display: flex;
     text-align: justify;
+    margin: 5px;
 }
 
 .header-txt {
@@ -196,7 +197,7 @@ h2 {
 }
 
 .popular-content img {
-    width: 200px;
+    width: 300px;
     /*Tamaño de las imagenes del popular content*/
 }
 
@@ -208,7 +209,7 @@ h2 {
 }
 
 .product-1 {
-    background-color: rgb(39, 100, 141);
+    background-color: rgb(5, 76, 124);
     text-align: justify;
     /*Color de fondo de la seccion de servicios*/
 }
@@ -236,14 +237,14 @@ h3 {
 }
 
 .contact-content {
-    background-color: rgb(39, 100, 141);
+    background-color:  rgb(5, 76, 124);
     text-align: center;
     padding: 50px;
     border-radius: 50px;
 }
 
 .contact-content2 {
-    background-color: rgb(39, 100, 141);
+    background-color:  rgb(5, 76, 124);
     text-align:center;
     padding: 50px;
     border-radius: 50px;
@@ -323,7 +324,7 @@ input {
         top: 100%;
         left: 0;
         right: 0;
-        background-color:  rgb(39, 100, 141);
+        background-color:  rgb(5, 76, 124);
         display: none;
     }
 
@@ -345,8 +346,9 @@ input {
     }
 
     .header-txt {
-        text-align: center;
+     
         flex-basis: 100%;
+        text-align: justify;
     }
 
     .header-txt h1 {
