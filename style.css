@@ -187,8 +187,9 @@ img {
 
 
 .popular-container {
-    padding: 100px 0;
-    text-align: center;
+
+    padding: 40px 0; /*tamaño de la seccion*/
+    text-align:center;
     color: rgb(0, 7, 2);
     font-weight: bold;
     background-color: white;
@@ -202,7 +203,7 @@ h2 {
 }
 
 h4 {
-    /*Formato titulo 2*/
+    /*Formato titulo 4*/
     color: rgb(252, 251, 251);
     font-size: 35px;
     margin-bottom: 45px;
@@ -256,7 +257,7 @@ h3 {
     align-items: center;
 }
 
-.contact {
+.contact-container {
     padding: 150px 300px;
     /*Espacio entre el body la seccion de comentarios*/
 }
@@ -389,7 +390,7 @@ input {
         margin-right: 0;
     }
 
-    .popular {
+    .popular-container {
         display: none;
     }
 
@@ -402,7 +403,7 @@ input {
         width: 100%;
     }
 
-    .contact{
+    .contact-container{
         padding: 30px;
     }
 

@@ -161,6 +161,7 @@ img {
     background-color: rgb(13, 190, 52);
 }
 
+
 form {
     /* Centrar el formulario en la página */
     margin: 0 auto;
@@ -168,7 +169,7 @@ form {
     /* Esquema del formulario */
     padding: 1em;
     border: 1px solid rgb(13, 190, 52);
-    border-radius: 1em;
+    border-radius: 1em;    
 }
 
 ul {
@@ -294,19 +295,14 @@ h3 {
     align-items: center;
 }
 
-.contact {
-    padding: 150px 300px;
+.contact-container {
+    padding: 80px 250px;
     /*Espacio entre el body la seccion de comentarios*/
 }
 
-.contact-content {
-    background-color: rgb(5, 76, 124);
-    text-align: center;
-    padding: 50px;
-    border-radius: 50px;
-}
 
-.contact-content2 {
+
+.contact-content {
     background-color: rgb(5, 76, 124);
     text-align:center;
     padding: 50px;
@@ -442,7 +438,7 @@ input {
         width: 100%;
     }
 
-    .contact{
+    .contact-container{
         padding: 30px;
     }
 
