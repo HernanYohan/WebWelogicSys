@@ -16,6 +16,7 @@ body {
     /*Color de fondo de la pagina*/
     color: white;
     /*Color de letra del cuerpo la pagina*/
+
 }
 
 img {
@@ -310,6 +311,7 @@ h3 {
     text-align:center;
     padding: 50px;
     border-radius: 50px;
+    
 }
 
 form {
@@ -348,6 +350,7 @@ input {
     /*Alinia los elementos*/
     padding: 50px 0;
     /*Espacios ArribaAbajo=50px IzquierdaDerecha=0  */
+    
 }
 
 
