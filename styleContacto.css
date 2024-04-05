@@ -235,10 +235,10 @@ form {
     /* Centrar el formulario en la página */
     margin: 0 auto;
     width: 400px;
-    /* Esquema del formulario */
-    padding: 1em;
-    border: 1px solid rgb(13, 190, 52);
-    border-radius: 1em;
+        /* Esquema del formulario */
+        padding: 1em;
+        border: 1px solid rgb(13, 190, 52);
+        border-radius: 1em;
 }
 
 select {
