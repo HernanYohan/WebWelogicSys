@@ -47,23 +47,23 @@
     </header>
 
     <main class="product container"><!--Cuerpo de la pagina-->
-        <h2>Contacta con nosotros</h2>
+        <h2>¿Estás interesado en nuestros servicios? ¡Contáctanos!</h2>
         <section class="contact-container">
             <div class="contact-content">
-                <h3>Dejanos tu comentarios</h3>
-                <form action="contacto.html" >
+                <h3>Contacta con nosotros</h3>
+                <form action="https://formsubmit.co/hernanyohernandezh@gmail.com" method="POST">
                     <ul>
                         <li>
                             <label for="name">Nombre:</label>
-                            <input type="text" id="name" name="user_name" required/>
+                            <input type="text" id="name" name="user_name" required />
                         </li>
                         <li>
                             <label for="mail">Correo electrónico:</label>
-                            <input type="email" id="mail" name="user_mail" required/>
+                            <input type="email" id="mail" name="user_mail" required />
                         </li>
                         <li>
                             <label for="tel">Telefono:</label>
-                            <input type="number" id="mail" name="user_mail" required/>
+                            <input type="number" id="cel" name="user_cel" required />
                         </li>
                         <li>
                             <label for="tip">Tipo servicio:</label>
@@ -78,9 +78,12 @@
                             <textarea id="msg" name="user_message" required></textarea>
                         </li>
                         <li>
-                            <input type="submit" class="button" value="Enviar"><!--Boton-->
+                            <input type="submit" class="button" value="Contactar"><!--Boton-->
+                                <input type="hidden" name="_next" value="contacto.html">
+                                <input type="hidden" name="_captcha" value="false">
                         </li>
                     </ul>
+
                 </form>
 
             </div>
