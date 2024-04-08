@@ -356,6 +356,17 @@ input {
     display: flex;
     margin-right: 20px;
 }
+/* Estilos opcionales para los botones de redes sociales */
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 6%;
+    margin: 1px;
+}
+.social-buttons a {
+    margin: 0 10px;
+}
 
 .link3{
     font-size: 17px;
