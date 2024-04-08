@@ -312,23 +312,39 @@ input {
     /*Alinia los elementos*/
     padding: 50px 0;
     /*Espacios ArribaAbajo=50px IzquierdaDerecha=0  */
+    background-color: white;
 }
 
+.link{
+    font-size: 17px;
+    color: rgb(39, 100, 141);
+    display: flex;
+    margin-right: 20px;
+}
 
-.link ul {
+.link3{
+    font-size: 17px;
+    color: rgb(39, 100, 141);
+    display: flex;
+    margin-right: 20px;
+}
+
+.link2 ul {
+    
     display: flex;
     /*se ordenan en linea  */
 }
 
-.link ul li>a {
+.link2 ul li>a {
     /* Solo afecta lo que va despues del mayor que */
     font-size: 17px;
-    color: white;
+    /*tamaño de la letra */
+    color: rgb(39, 100, 141);
     margin-right: 20px;
     /* Espacio entre los elementos */
 }
 
-.link ul li>a:hover {
+.link2 ul li>a:hover {
     color: rgb(13, 190, 52);
 }
 
