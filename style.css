@@ -310,7 +310,7 @@ input {
     /*Añade una separacion*/
     align-items: center;
     /*Alinia los elementos*/
-    padding: 50px 0;
+    padding: 20px 0;
     /*Espacios ArribaAbajo=50px IzquierdaDerecha=0  */
     background-color: white;
 }
