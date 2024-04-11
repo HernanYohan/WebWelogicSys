@@ -31,7 +31,7 @@ img {
 }
 
 .header {
-    background-image: url(Imagenes/fondodivido.png);
+    background-image: url(Imagenes/divido.png);
     /*Imagen de fondo de la cabecera de la pagina (Header)*/
     background-position: center center;
     /*position de la imagen (Header)*/
@@ -533,6 +533,10 @@ textarea {
         color: rgb(13, 190, 52);
     }
 
+    .menu .navbar ul li a {
+        color:  rgb(247, 250, 248);
+    }
+    
     .menu .navbar ul li {
         width: 100%;
     }
