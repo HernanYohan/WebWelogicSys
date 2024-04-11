@@ -169,7 +169,7 @@ form {
     /* Esquema del formulario */
     padding: 1em;
     border: 1px solid rgb(13, 190, 52);
-    border-radius: 1em;    
+    border-radius: 1em;
 }
 
 ul {
@@ -228,6 +228,7 @@ input {
     color: black;
     font-size: 17px;
 }
+
 .button {
     display: inline-block;
     padding: 11px 35px;
@@ -270,7 +271,8 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /*Orden de los productos, 3 por faccion en linea*/
-    gap: 50px; /* (gap) espacio entre filas y columnas */
+    gap: 50px;
+    /* (gap) espacio entre filas y columnas */
 }
 
 .product-1 {
@@ -304,10 +306,10 @@ h3 {
 
 .contact-content {
     background-color: rgb(5, 76, 124);
-    text-align:center;
+    text-align: center;
     padding: 50px;
     border-radius: 50px;
-    
+
 }
 
 form {
@@ -347,15 +349,16 @@ input {
     padding: 20px 0;
     /*Espacios ArribaAbajo=50px IzquierdaDerecha=0  */
     background-color: white;
-    
+
 }
 
-.link{
+.link {
     font-size: 17px;
     color: rgb(39, 100, 141);
     display: flex;
     margin-right: 20px;
 }
+
 /* Estilos opcionales para los botones de redes sociales */
 .social-buttons {
     display: flex;
@@ -364,11 +367,12 @@ input {
     max-width: 6%;
     margin: 1px;
 }
+
 .social-buttons a {
     margin: 0 10px;
 }
 
-.link3{
+.link3 {
     font-size: 17px;
     color: rgb(39, 100, 141);
     display: flex;
@@ -376,7 +380,7 @@ input {
 }
 
 .link2 ul {
-    
+
     display: flex;
     /*se ordenan en linea  */
 }
@@ -393,6 +397,115 @@ input {
 .link2 ul li>a:hover {
     color: rgb(13, 190, 52);
 }
+
+/*:::Boton-autorizacion:::*/
+.boton-autorizacion {
+    padding: 11px 35px;
+    
+}
+
+
+/*:::Boton-Modal:::*/
+.boton-modal {
+    padding: 40px;
+    
+}
+
+.boton-modal label {
+    padding: 20px 100px;
+    background-color: #5488a3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    justify-content:center;
+    align-items:start;
+}
+
+.boton-modal label:hover {
+    background-color: #185E83;
+}
+
+/*:::Fin Boton-Modal:::*/
+
+/*:::Ventana Modal:::*/
+#btn-modal {
+    display: none;
+}
+
+.container-modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal:checked~.container-modal {
+    display: flex;
+}
+
+.content-modal {
+    color: black;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.content-modal h2 {
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.content-modal p {
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.content-modal .btn-cerrar {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-modal .btn-cerrar label {
+    padding: 7px 10px;
+    background-color: #5488a3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.content-modal .btn-cerrar label:hover {
+    background-color: #185E83;
+}
+
+.cerrar-modal {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width:800px) {
+    .content-modal {
+        width: 90%;
+    }
+}
+
+/*:::Fin Ventana Modal:::*/
 
 /* Seccion para moviles cuando baje de 991 pixeles */
 
@@ -417,7 +530,7 @@ input {
     }
 
     .menu .navbar ul li a:hover {
-        color:  rgb(13, 190, 52);
+        color: rgb(13, 190, 52);
     }
 
     .menu .navbar ul li {
@@ -436,7 +549,7 @@ input {
     .header-txt {
         text-align: justify;
         flex-basis: 100%;
-        
+
     }
 
     .header-txt h1 {
@@ -457,19 +570,20 @@ input {
     }
 
     .product-content {
-        grid-template-columns: repeat(1,1fr);
-        gap: 30px; /* (gap) espacio entre filas y columnas */
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        /* (gap) espacio entre filas y columnas */
     }
 
     .product-1 img {
         width: 100%;
     }
 
-    .contact-container{
+    .contact-container {
         padding: 30px;
     }
 
-    form{
+    form {
         flex-direction: column;
     }
 
@@ -477,19 +591,19 @@ input {
         margin-right: 0;
     }
 
-    input{
+    input {
         margin: 0 0 20px 0;
     }
 
-    .footer{
+    .footer {
         flex-direction: column;
         text-align: center;
     }
 
-    .link ul{
+    .link ul {
         margin-top: 20px;
     }
 
- 
+
 
 }
