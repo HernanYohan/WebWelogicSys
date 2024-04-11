@@ -71,6 +71,39 @@
                             <textarea id="msg" name="user_message" required></textarea>
                         </li>
                         <li>
+                            <div class="boton-autorizacion">
+                                <input type="checkbox" id="autorizacion" name="autorizacion" value="autorizacion"
+                                    required />
+                                <label for="autorizacion">Autorizo el tratamiento de mis datos personales</label>
+                            </div>
+
+                        </li>
+                        <li>
+                            <!--Boton-->
+                            <div class="boton-modal">
+                                <label for="btn-modal">
+                                    Tratamiento de datos
+                                </label>
+                            </div>
+                            <!--Fin de Boton-->
+                            <!--Ventana Modal-->
+                            <input type="checkbox" id="btn-modal">
+                            <div class="container-modal">
+                                <div class="content-modal">
+                                    <h2>Ley de tratamiento de datos</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nostrum!
+                                    </p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nostrum!
+                                    </p>
+                                    <div class="btn-cerrar">
+                                        <label for="btn-modal">Cerrar</label>
+                                    </div>
+                                </div>
+                                <label for="btn-modal" class="cerrar-modal"></label>
+                            </div>
+                        </li>
+
+                        <li>
                             <input type="submit" class="button" value="Enviar"><!--Boton-->
                             <input type="hidden" name="_next" value="http://127.0.0.1:5500/pqr.html">
                             <input type="hidden" name="_captcha" value="false">
