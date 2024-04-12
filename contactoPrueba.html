@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PqrPruebas</title>
-    <link rel="stylesheet" href="stylePruebasPqr.css"> <!--href hace referencia a la pagina de estilos a utilizar-->
+    <link rel="stylesheet" href="styleContactoPrueba.css"> <!--href hace referencia a la pagina de estilos a utilizar-->
 </head>
 <body>
     <header class="header"><!--Cabecera de la pagina-->
@@ -44,14 +44,14 @@
     </header>
 
     <main>
-        <H2>
-            Peticiones quejas y reclamos
-        </H2>
+        <h2>
+            ¿Estás interesado en nuestros servicios? ¡Contáctanos!
+        </h2>
 
         <div class="contact-container">
 
             <div class="contact-content">
-                <h3>PQR</h3>
+                <h3>Contacta con nosotros</h3>
                 <form action="https://formsubmit.co/edwarfierro9@gmail.com" method="POST">
                     <ul>
                         <li>
@@ -62,6 +62,14 @@
                         </li>
                         <li>
                             <div class="espacio-vertical"><input type="number" placeholder="Telefono" required> <!--Tipo de campo de escritura--></div>
+                        </li>
+                        <li>
+                            <label for="tip">Tipo servicio:</label>
+                            <select name="tipo" id="tipo">
+                                <option value="Arquitectura">Arquitectura</option>
+                                <option value="Soporte Funcional">Soporte Funcional</option>
+                                <option value="Soporte Tecnico">Soporte Tecnico</option>
+                            </select>
                         </li>
                         <li>
                             <div class="espacio-vertical"><textarea id="msg" placeholder="Mensaje" name="user_message" required></textarea></div>
