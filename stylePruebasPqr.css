@@ -323,14 +323,14 @@ textarea {
 /*:::Boton-autorizacion:::*/
 .boton-autorizacion {
     padding: 11px 35px;
-    
+
 }
 
 
 /*:::Boton-Modal:::*/
 .boton-modal {
     padding: 40px;
-    
+
 }
 
 .boton-modal label {
@@ -340,8 +340,8 @@ textarea {
     border-radius: 4px;
     cursor: pointer;
     transition: all 300ms ease;
-    justify-content:center;
-    align-items:start;
+    justify-content: center;
+    align-items: start;
 }
 
 .boton-modal label:hover {
@@ -435,7 +435,7 @@ textarea {
     cursor: pointer;
     /*Aparece el cursor encima del boton*/
 
-    
+
 
 }
 
@@ -460,18 +460,27 @@ textarea {
     background-color: white;
 }
 
+
 /* Estilos opcionales para los botones de redes sociales*/
 .social-buttons {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    max-width: 6%;
-    margin: 1px;
+    max-width: 15%;
+    margin: 11px;
+    width: 500px;
+
+
+
 }
 
 .social-buttons a {
     margin: 0 10px;
+    width: 500px;
+
 }
+
+
 
 
 .link {
@@ -534,9 +543,9 @@ textarea {
     }
 
     .menu .navbar ul li a {
-        color:  rgb(247, 250, 248);
+        color: rgb(247, 250, 248);
     }
-    
+
     .menu .navbar ul li {
         width: 100%;
     }
