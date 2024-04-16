@@ -180,9 +180,6 @@ img {
     /*Aparece el cursor encima del boton*/
 }
 
-
-
-
 .popular {
     padding: 100px 0;
     text-align: center;
@@ -241,7 +238,7 @@ h4 {
 }
 
 .product-1 {
-    background-color: rgb(5, 76, 124);
+    background-color:rgb(5, 76, 124);;
     text-align: justify;
     /*Color de fondo de la seccion de servicios*/
 }
@@ -308,32 +305,33 @@ input {
 }
 
 
+select {
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    outline: 0;
+    background: #f7f8f7;
+    color: #070707;
+    width: 260px;
+    padding: 18px 25px;
+    border: 1px solid rgb(13, 190, 52);
+    border-radius: 25px;
+
+}
+
+
 textarea {
     /*Boton enviar*/
     padding: 18px 25px;
     background-color: white;
     border: 0;
-
     outline: none;
     margin-right: 10px;
     color: black;
     font-size: 17px;
 }
 
-select {
-    font-size: medium;
-    font-weight: 500;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    outline: 0;
-    background: #f7f8f7;
-    color: #070707;
-    width: 300px;
-    padding: 1em;
-    border: 1px solid rgb(13, 190, 52);
-    border-radius: 1em;
-
-}
 
 /*:::Boton-autorizacion:::*/
 .boton-autorizacion {
@@ -345,7 +343,7 @@ select {
 /*:::Boton-Modal:::*/
 .boton-modal {
     padding: 40px;
-    
+       
 }
 
 .boton-modal label {
@@ -449,8 +447,6 @@ select {
     /*Color de la letra del boton*/
     cursor: pointer;
     /*Aparece el cursor encima del boton*/
-
-    
 
 }
 
@@ -612,6 +608,11 @@ select {
 
     .button {
         margin-right: 0;
+    }
+
+    .boton-modal {
+        margin-right: 0;
+           
     }
 
     input {
