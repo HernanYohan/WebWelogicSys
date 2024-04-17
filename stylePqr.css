@@ -16,11 +16,11 @@ body {
     /*Color de fondo de la pagina*/
     color: white;
     /*Color de letra del cuerpo la pagina*/
-
 }
 
 img {
     max-width: 100%;
+    margin: 1px;
 }
 
 
@@ -64,9 +64,11 @@ img {
 
     /*color: rgb(13, 190, 52);
     font-size: 25px;
-    font-weight: 800;*/
+    font-weight: 300;
+    margin: 11px;*/
     width: 250px;
     margin: 11px;
+
 }
 
 .menu .navbar ul li {
@@ -105,7 +107,7 @@ img {
 .header-content {
     display: flex;
     text-align: justify;
-    margin: 5px
+    margin: 5px;
 }
 
 .header-txt {
@@ -156,80 +158,14 @@ img {
 .btn2:hover,
 .btn-1:hover,
 .btn-2:hover,
-.button:hover {
+.button:hover,
+.btn-3:hover {
     /* Fondo del boton cuando se pasa el cursor por encima*/
     background-color: rgb(13, 190, 52);
 }
 
 
-form {
-    /* Centrar el formulario en la página */
-    margin: 0 auto;
-    width: 400px;
-    /* Esquema del formulario */
-    padding: 1em;
-    border: 1px solid rgb(13, 190, 52);
-    border-radius: 1em;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-form li+li {
-    margin-top: 1em;
-}
-
-label {
-    /* Tamaño y alineación uniforme */
-    display: inline-block;
-    width: 90px;
-    text-align: center;
-}
-
-input,
-textarea {
-    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
-       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
-    font: 1em sans-serif;
-
-    /* Tamaño uniforme del campo de texto */
-    width: 300px;
-    box-sizing: border-box;
-
-    /* Hacer coincidir los bordes del campo del formulario */
-    border: 1px solid #999;
-}
-
-input:focus,
-textarea:focus {
-    /* Destacado adicional para elementos que tienen el cursor */
-    border-color: #000;
-}
-
-textarea {
-    /* Alinear los campos de texto multilínea con sus etiquetas */
-    vertical-align: top;
-
-    /* Proporcionar espacio para escribir texto */
-    height: 5em;
-}
-
-
-input {
-    /*Boton enviar*/
-    padding: 18px 25px;
-    border: 0;
-    border-radius: 25px;
-    outline: none;
-    margin-right: 10px;
-    color: black;
-    font-size: 17px;
-}
-
-.button {
+.btn-3 {
     display: inline-block;
     padding: 11px 35px;
     border: 2px solid rgb(13, 190, 52);
@@ -241,13 +177,25 @@ input {
     /*Color de la letra del boton*/
     cursor: pointer;
     /*Aparece el cursor encima del boton*/
-    margin-right: auto;
-    margin-left: auto;
 }
+
+
+
 
 .popular {
     padding: 100px 0;
     text-align: center;
+}
+
+
+.popular-container {
+
+    padding: 40px 0;
+    /*tamaño de la seccion*/
+    text-align: center;
+    color: rgb(0, 7, 2);
+    font-weight: bold;
+    background-color: white;
 }
 
 h2 {
@@ -257,13 +205,29 @@ h2 {
     margin-bottom: 45px;
 }
 
+h4 {
+    /*Formato titulo 4*/
+    color: rgb(252, 251, 251);
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
 .popular-content {
+
+    margin: 11px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-contentwords {
+
+    margin: 20px;
     display: flex;
     justify-content: space-between;
 }
 
 .popular-content img {
-    width: 200px;
+    width: 300px;
     /*Tamaño de las imagenes del popular content*/
 }
 
@@ -277,6 +241,7 @@ h2 {
 
 .product-1 {
     background-color: rgb(5, 76, 124);
+    text-align: justify;
     /*Color de fondo de la seccion de servicios*/
 }
 
@@ -302,21 +267,32 @@ h3 {
     /*Espacio entre el body la seccion de comentarios*/
 }
 
-
-
 .contact-content {
     background-color: rgb(5, 76, 124);
     text-align: center;
     padding: 50px;
     border-radius: 50px;
+}
 
+.contact-content2 {
+    background-color: rgb(5, 76, 124);
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
 }
 
 form {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+
 }
+
+.espacio-vertical {
+    margin-bottom: 20px;
+    /* espacios entre los objetos del form */
+}
+
 
 input {
     /*Boton enviar*/
@@ -331,77 +307,16 @@ input {
 }
 
 
-::placeholder {
-    /*Formato del campo de texto*/
-    color: gray;
-    font-size: 17px;
-    /* especifica la dimensión de la letra*/
-}
-
-
-.footer {
-    display: flex;
-    /*nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la pantalla para estructurar nuestra página web*/
-    justify-content: space-between;
-    /*Añade una separacion*/
-    align-items: center;
-    /*Alinia los elementos*/
-    padding: 20px 0;
-    /*Espacios ArribaAbajo=50px IzquierdaDerecha=0  */
+textarea {
+    /*Boton enviar*/
+    padding: 18px 25px;
     background-color: white;
+    border: 0;
 
-}
-
-.link {
+    outline: none;
+    margin-right: 10px;
+    color: black;
     font-size: 17px;
-    color: rgb(39, 100, 141);
-    display: flex;
-    margin-right: 20px;
-}
-
-/* Estilos opcionales para los botones de redes sociales*/
-.social-buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    max-width: 15%;
-    margin: 11px;
-    width: 500px;
-
-}
-
-.social-buttons a {
-    margin: 0 10px;
-    width: 500px;
-
-}
-
-
-
-.link3 {
-    font-size: 17px;
-    color: rgb(39, 100, 141);
-    display: flex;
-    margin-right: 20px;
-}
-
-.link2 ul {
-
-    display: flex;
-    /*se ordenan en linea  */
-}
-
-.link2 ul li>a {
-    /* Solo afecta lo que va despues del mayor que */
-    font-size: 17px;
-    /*tamaño de la letra */
-    color: rgb(39, 100, 141);
-    margin-right: 20px;
-    /* Espacio entre los elementos */
-}
-
-.link2 ul li>a:hover {
-    color: rgb(13, 190, 52);
 }
 
 /*:::Boton-autorizacion:::*/
@@ -418,7 +333,7 @@ input {
 }
 
 .boton-modal label {
-    padding: 20px 100px;
+    padding: 18px 25px;
     background-color: #5488a3;
     color: #fff;
     border-radius: 4px;
@@ -505,13 +420,100 @@ input {
     z-index: -1;
 }
 
-@media screen and (max-width:800px) {
-    .content-modal {
-        width: 90%;
-    }
+/*Boton enviar del formulario*/
+.button {
+    display: inline-block;
+    padding: 11px 100px;
+    border: 2px solid rgb(13, 190, 52);
+    /*color del borde del boton*/
+    border-radius: 25px;
+    margin-right: 10px;
+    font-size: 17px;
+    color: gray;
+    /*Color de la letra del boton*/
+    cursor: pointer;
+    /*Aparece el cursor encima del boton*/
+
+
+
 }
 
-/*:::Fin Ventana Modal:::*/
+
+::placeholder {
+    /*Formato del campo de texto*/
+    color: gray;
+    font-size: 17px;
+    /* especifica la dimensión de la letra*/
+}
+
+
+.footer {
+    display: flex;
+    /*nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la pantalla para estructurar nuestra página web*/
+    justify-content: space-between;
+    /*Añade una separacion*/
+    align-items: center;
+    /*Alinia los elementos*/
+    padding: 20px 0;
+    /*Espacios ArribaAbajo=50px IzquierdaDerecha=0  */
+    background-color: white;
+}
+
+
+/* Estilos opcionales para los botones de redes sociales*/
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 15%;
+    margin: 11px;
+    width: 500px;
+
+
+
+}
+
+.social-buttons a {
+    margin: 0 10px;
+    width: 500px;
+
+}
+
+
+
+
+.link {
+    font-size: 17px;
+    color: rgb(39, 100, 141);
+    display: flex;
+    margin-right: 20px;
+}
+
+.link3 {
+    font-size: 17px;
+    color: rgb(39, 100, 141);
+    display: flex;
+    margin-right: 20px;
+}
+
+.link2 ul {
+
+    display: flex;
+    /*se ordenan en linea a la derecha */
+}
+
+.link2 ul li>a {
+    /* Solo afecta lo que va despues del mayor que */
+    font-size: 17px;
+    /*tamaño de la letra */
+    color: rgb(39, 100, 141);
+    margin-right: 20px;
+    /* Espacio entre los elementos */
+}
+
+.link2 ul li>a:hover {
+    color: rgb(13, 190, 52);
+}
 
 /* Seccion para moviles cuando baje de 991 pixeles */
 
@@ -557,9 +559,9 @@ input {
     }
 
     .header-txt {
-        text-align: justify;
-        flex-basis: 100%;
 
+        flex-basis: 100%;
+        text-align: justify;
     }
 
     .header-txt h1 {
@@ -575,7 +577,7 @@ input {
         margin-right: 0;
     }
 
-    .popular {
+    .popular-container {
         display: none;
     }
 
@@ -601,6 +603,10 @@ input {
         margin-right: 0;
     }
 
+    .button {
+        margin-right: 0;
+    }
+
     input {
         margin: 0 0 20px 0;
     }
@@ -614,6 +620,11 @@ input {
         margin-top: 20px;
     }
 
+    .content-modal {
+        color: black;
+        width: 90%;
+
+    }
 
 
 }

@@ -11,7 +11,7 @@
 <body>
     <header class="header"><!--Cabecera de la pagina-->
         <div class="menu container">
-            <img class="logo" src="Imagenes/logo2.png" alt="">
+            <img class="logo" src="Imagenes/NuevoLogo.jpeg" alt="">
             <input type="checkbox" id="menu" />
             <label for="menu">
                 <img src="Imagenes/menu2.png" class="menu-icono" alt="menu"><!--imagene Logo-->
@@ -20,7 +20,7 @@
                 <ul><!--(ul)lista ordenada-->
                     <li><a href="index.html">Inicio</a></li><!--(li)elementos de una lista-->
                     <li><a href="servicios.html">Servicios</a></li><!--(a)enlaces-->
-                    <li><a href="pqr.html">PQR</a></li>
+                    <li><a href="pqrPrueba.html">PQR</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
@@ -32,8 +32,7 @@
                     Welogicsys es una empresa que presta servicios y productos informáticos relacionados a AZURE, AWS, y
                     SAS, nuestro enfoque está relacionado principalmente a soporte, implementación y optimización de las
                     arquitecturas, contamos con más 10 años de experiencia realizando estas actividades, que nos han
-                    hecho expertos en la materia.
-                </p>
+                    hecho expertos en la materia.</p>
                 <div class="butons">
                     <a href="index.html" class="btn1">
                         Informacion
@@ -46,27 +45,33 @@
         </div>
     </header>
 
-    <main class="product container"><!--Cuerpo de la pagina-->
-        <h2>¿Estás interesado en nuestros servicios? ¡Contáctanos!</h2>
-        <section class="contact-container">
+    <main>
+        <h2>
+            ¿Estás interesado en nuestros servicios? ¡Contáctanos!
+        </h2>
+
+        <div class="contact-container">
+
             <div class="contact-content">
                 <h3>Contacta con nosotros</h3>
-                <form action="https://formsubmit.co/edwarfierro9@gmail.com" method="POST">
+                <form action="https://formsubmit.co/welogicsys@gmail.com" method="POST">
                     <ul>
                         <li>
-                            <label for="name">Nombre:</label>
-                            <input type="text" id="name" name="user_name" required />
+                            <div class="espacio-vertical"><input type="text" placeholder="Nombre" required>
+                                <!--Tipo de campo de escritura--></div>
                         </li>
                         <li>
-                            <label for="mail">Correo electrónico:</label>
-                            <input type="email" id="mail" name="user_mail" required />
+                            <div class="espacio-vertical"><input type="email" placeholder="Correo" required>
+                                <!--Tipo de campo de escritura--></div>
                         </li>
                         <li>
-                            <label for="tel">Telefono:</label>
-                            <input type="number" id="cel" name="user_cel" required />
+                            <div class="espacio-vertical"><input type="number" placeholder="Telefono" required>
+                                <!--Tipo de campo de escritura--></div>
                         </li>
                         <li>
-                            <label for="tip">Tipo servicio:</label>
+                            <div class="espacio-vertical">
+                                <label for="tip">Tipo servicio:</label>
+                            </div>
                             <select name="tipo" id="tipo">
                                 <option value="Arquitectura">Arquitectura</option>
                                 <option value="Soporte Funcional">Soporte Funcional</option>
@@ -74,27 +79,58 @@
                             </select>
                         </li>
                         <li>
-                            <label for="msg">Mensaje:</label>
-                            <textarea id="msg" name="user_message" required></textarea>
+                            <div class="espacio-vertical"><textarea id="msg" placeholder="Mensaje" name="user_message"
+                                    required></textarea></div>
                         </li>
                         <li>
-                            <input type="submit" class="button" value="Contactar"><!--Boton-->
-                                <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
-                                <input type="hidden" name="_captcha" value="false"> 
+                            <div class="boton-autorizacion">
+                                <input type="checkbox" id="autorizacion" name="autorizacion" value="autorizacion"
+                                    required />
+                                <label for="autorizacion">Autorizo el tratamiento de mis datos personales</label>
+                            </div>
+
+                        </li>
+                        <li>
+                            <!--Boton-->
+                            <div class="boton-modal">
+                                <label for="btn-modal">
+                                    Tratamiento de datos
+                                </label>
+                            </div>
+                            <!--Fin de Boton-->
+                            <!--Ventana Modal-->
+                            <input type="checkbox" id="btn-modal">
+                            <div class="container-modal">
+                                <div class="content-modal">
+                                    <h2>Ley de tratamiento de datos</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nostrum!
+                                    </p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nostrum!
+                                    </p>
+                                    <div class="btn-cerrar">
+                                        <label for="btn-modal">Cerrar</label>
+                                    </div>
+                                </div>
+                                <label for="btn-modal" class="cerrar-modal"></label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="espacio-vertical">
+                                <input type="submit" class="button" value="Enviar"><!--Boton-->
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5500/pqr.html">
+                                <input type="hidden" name="_captcha" value="false">
+                            </div>
                         </li>
                     </ul>
-
                 </form>
-
             </div>
 
-        </section>
+        </div>
     </main>
-
 
     <footer class="footer container"><!--Pie de la pagina-->
         <div class="link">
-            <img class="logo" src="Imagenes/logo2.png" alt="">
+            <img class="logo" src="Imagenes/NuevoLogo.jpeg" alt="">
         </div>
         <div class="link3">
 
@@ -108,6 +144,7 @@
                 <li>
                     <p>Tel: 3115772179</p>
                 </li>
+
             </ul>
         </div>
         <div class="social-buttons">
