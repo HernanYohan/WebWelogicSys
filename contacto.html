@@ -20,7 +20,7 @@
                 <ul><!--(ul)lista ordenada-->
                     <li><a href="index.html">Inicio</a></li><!--(li)elementos de una lista-->
                     <li><a href="servicios.html">Servicios</a></li><!--(a)enlaces-->
-                    <li><a href="pqrPrueba.html">PQR</a></li>
+                    <li><a href="pqr.html">PQR</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
@@ -57,22 +57,25 @@
                 <form action="https://formsubmit.co/welogicsys@gmail.com" method="POST">
                     <ul>
                         <li>
-                            <div class="espacio-vertical"><input type="text" placeholder="Nombre" required>
-                                <!--Tipo de campo de escritura--></div>
+                            <div class="espacio-vertical"><input type="text" name="Nombre" placeholder="Nombre" required>
+                                <!--Tipo de campo de escritura-->
+                            </div>
                         </li>
                         <li>
-                            <div class="espacio-vertical"><input type="email" placeholder="Correo" required>
-                                <!--Tipo de campo de escritura--></div>
+                            <div class="espacio-vertical"><input type="email" name="Correo" placeholder="Correo" required>
+                                <!--Tipo de campo de escritura-->
+                            </div>
                         </li>
                         <li>
-                            <div class="espacio-vertical"><input type="number" placeholder="Telefono" required>
-                                <!--Tipo de campo de escritura--></div>
+                            <div class="espacio-vertical"><input type="number" name="Numero" placeholder="Telefono" required>
+                                <!--Tipo de campo de escritura-->
+                            </div>
                         </li>
                         <li>
                             <div class="espacio-vertical">
                                 <label for="tip">Tipo servicio:</label>
                             </div>
-                            <select name="tipo" id="tipo">
+                            <select name="Tipo" id="tipo">
                                 <option value="Arquitectura">Arquitectura</option>
                                 <option value="Soporte Funcional">Soporte Funcional</option>
                                 <option value="Soporte Tecnico">Soporte Tecnico</option>
@@ -84,11 +87,10 @@
                         </li>
                         <li>
                             <div class="boton-autorizacion">
-                                <input type="checkbox" id="autorizacion" name="autorizacion" value="autorizacion"
+                                <input type="checkbox" id="autorizacion" name=" Autorizacion" value="autorizacion"
                                     required />
                                 <label for="autorizacion">Autorizo el tratamiento de mis datos personales</label>
                             </div>
-
                         </li>
                         <li>
                             <!--Boton-->
@@ -103,10 +105,11 @@
                             <div class="container-modal">
                                 <div class="content-modal">
                                     <h2>Ley de tratamiento de datos</h2>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nostrum!
-                                    </p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nostrum!
-                                    </p>
+                                    <p>Welogicsys SAS se compromete a él buen manejo de datos según lo establecido en La
+                                        Ley 1266 de 2008 de protección de datos, Habeas Data.</p>
+                                    <div class="politica" >
+                                        <p><a href="terminos.html">Politica de datos</a></p>
+                                    </div>
                                     <div class="btn-cerrar">
                                         <label for="btn-modal">Cerrar</label>
                                     </div>
@@ -117,7 +120,7 @@
                         <li>
                             <div class="espacio-vertical">
                                 <input type="submit" class="button" value="Enviar"><!--Boton-->
-                                <input type="hidden" name="_next" value="http://127.0.0.1:5500/pqr.html">
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
                                 <input type="hidden" name="_captcha" value="false">
                             </div>
                         </li>

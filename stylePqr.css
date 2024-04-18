@@ -420,6 +420,15 @@ textarea {
     z-index: -1;
 }
 
+.politica a:hover {
+    color: rgb(13, 190, 52);
+}
+
+.politica a {
+    color: black;
+}
+
+
 /*Boton enviar del formulario*/
 .button {
     display: inline-block;

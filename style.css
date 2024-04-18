@@ -234,6 +234,13 @@ h4 {
     gap: 50px; /* (gap) espacio entre filas y columnas */
 }
 
+.product-contentProposito {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /*Orden de los productos, 3 por faccion en linea*/
+    gap: 50px; /* (gap) espacio entre filas y columnas */
+}
+
 .product-1 {
     background-color: rgb(5, 76, 124);
     text-align: justify;
@@ -432,6 +439,11 @@ input {
     }
 
     .product-content {
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px; /* (gap) espacio entre filas y columnas */
+    }
+
+    .product-contentProposito {
         grid-template-columns: repeat(1,1fr);
         gap: 30px; /* (gap) espacio entre filas y columnas */
     }

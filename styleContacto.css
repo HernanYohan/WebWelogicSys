@@ -527,6 +527,16 @@ textarea {
     color: rgb(13, 190, 52);
 }
 
+.politica a:hover {
+    color: rgb(13, 190, 52);
+}
+
+.politica a {
+    color: black;
+}
+
+
+
 /* Seccion para moviles cuando baje de 991 pixeles */
 
 @media(max-width:991px) {
