@@ -31,7 +31,7 @@ img {
 }
 
 .header {
-    background-image: url(Imagenes/divido.png);
+    background-image: url(Imagenes/fondo10.webp);
     /*Imagen de fondo de la cabecera de la pagina (Header)*/
     background-position: center center;
     /*position de la imagen (Header)*/
@@ -41,9 +41,15 @@ img {
     /*que cubre la imagen (cover = todo)*/
     display: flex;
     align-items: center;
-    min-height: 70vh;
+    min-height: 54vh;
     /* que tanto porcentaje cubre la imagen hacia abajo  80vh*/
     padding: 80px 0;
+}
+
+.menuBlanco{
+    padding: 70px 100px;
+    background-color: white;
+    /*Espacio entre el body la seccion de comentarios*/
 }
 
 .menu {
@@ -109,6 +115,7 @@ img {
     display: flex;
     text-align: justify;
     margin: 5px;
+    margin-top: -100px;
 }
 
 .header-txt {
