@@ -12,7 +12,7 @@
 body {
     font-family: "Poppins", sans-serif;
     /*Estilo de letra a utilizar*/
-    background-color:  rgb(39, 100, 141);
+    background-color: rgb(39, 100, 141);
     /*Color de fondo de la pagina*/
     color: white;
     /*Color de letra del cuerpo la pagina*/
@@ -46,7 +46,7 @@ img {
     padding: 80px 0;
 }
 
-.menuBlanco{
+.menuBlanco {
     padding: 70px 100px;
     background-color: white;
     /*Espacio entre el body la seccion de comentarios*/
@@ -175,7 +175,7 @@ img {
 .btn-3 {
     display: inline-block;
     padding: 11px 35px;
-    border: 2px solid  rgb(13, 190, 52);
+    border: 2px solid rgb(13, 190, 52);
     /*color del borde del boton*/
     border-radius: 25px;
     margin-right: 25px;
@@ -195,8 +195,9 @@ img {
 
 .popular-container {
 
-    padding: 40px 0; /*tamaño de la seccion*/
-    text-align:center;
+    padding: 40px 0;
+    /*tamaño de la seccion*/
+    text-align: center;
     color: rgb(0, 7, 2);
     font-weight: bold;
     background-color: white;
@@ -217,13 +218,14 @@ h4 {
 }
 
 .popular-content {
-    
+
     margin: 11px;
     display: flex;
     justify-content: space-between;
 }
+
 .popular-contentwords {
-    
+
     margin: 20px;
     display: flex;
     justify-content: space-between;
@@ -238,14 +240,16 @@ h4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /*Orden de los productos, 3 por faccion en linea*/
-    gap: 50px; /* (gap) espacio entre filas y columnas */
+    gap: 50px;
+    /* (gap) espacio entre filas y columnas */
 }
 
 .product-contentProposito {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     /*Orden de los productos, 3 por faccion en linea*/
-    gap: 50px; /* (gap) espacio entre filas y columnas */
+    gap: 50px;
+    /* (gap) espacio entre filas y columnas */
 }
 
 .product-1 {
@@ -272,20 +276,20 @@ h3 {
 }
 
 .contact-container {
-    padding: 150px 300px;
+    padding: 50px 30px;
     /*Espacio entre el body la seccion de comentarios*/
 }
 
 .contact-content {
-    background-color:  rgb(5, 76, 124);
+    background-color: rgb(5, 76, 124);
     text-align: center;
     padding: 50px;
     border-radius: 50px;
 }
 
 .contact-content2 {
-    background-color:  rgb(5, 76, 124);
-    text-align:center;
+    background-color: rgb(5, 76, 124);
+    text-align: center;
     padding: 50px;
     border-radius: 50px;
 }
@@ -337,24 +341,25 @@ input {
     max-width: 15%;
     margin: 11px;
     width: 500px;
-        
-    
+
+
 }
+
 .social-buttons a {
     margin: 0 10px;
     width: 500px;
-    
+
 }
 
 
-.link{
+.link {
     font-size: 17px;
     color: rgb(39, 100, 141);
     display: flex;
     margin-right: 20px;
 }
 
-.link3{
+.link3 {
     font-size: 17px;
     color: rgb(39, 100, 141);
     display: flex;
@@ -362,7 +367,7 @@ input {
 }
 
 .link2 ul {
-    
+
     display: flex;
     /*se ordenan en linea  */
 }
@@ -398,15 +403,16 @@ input {
         top: 100%;
         left: 0;
         right: 0;
-        background-color:  rgb(5, 76, 124);
+        background-color: rgb(5, 76, 124);
         display: none;
     }
 
     .menu .navbar ul li a:hover {
-        color:  rgb(13, 190, 52);
+        color: rgb(13, 190, 52);
     }
+
     .menu .navbar ul li a {
-        color:  rgb(247, 250, 248);
+        color: rgb(247, 250, 248);
     }
 
     .menu .navbar ul li {
@@ -423,7 +429,7 @@ input {
     }
 
     .header-txt {
-     
+
         flex-basis: 100%;
         text-align: justify;
     }
@@ -446,24 +452,26 @@ input {
     }
 
     .product-content {
-        grid-template-columns: repeat(1,1fr);
-        gap: 30px; /* (gap) espacio entre filas y columnas */
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        /* (gap) espacio entre filas y columnas */
     }
 
     .product-contentProposito {
-        grid-template-columns: repeat(1,1fr);
-        gap: 30px; /* (gap) espacio entre filas y columnas */
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        /* (gap) espacio entre filas y columnas */
     }
 
     .product-1 img {
         width: 100%;
     }
 
-    .contact-container{
+    .contact-container {
         padding: 30px;
     }
 
-    form{
+    form {
         flex-direction: column;
     }
 
@@ -471,19 +479,19 @@ input {
         margin-right: 0;
     }
 
-    input{
+    input {
         margin: 0 0 20px 0;
     }
 
-    .footer{
+    .footer {
         flex-direction: column;
         text-align: center;
     }
 
-    .link ul{
+    .link ul {
         margin-top: 20px;
     }
 
- 
+
 
 }
