@@ -211,7 +211,23 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     /*Orden de los productos, 3 por faccion en linea*/
     gap: 50px; /* (gap) espacio entre filas y columnas */
+    li {
+        list-style-image: url();
+      }
+      
 }
+
+.product-content-casos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /*Orden de los productos, 3 por faccion en linea*/
+    gap: 50px; /* (gap) espacio entre filas y columnas */
+    li {
+        list-style-image: url();
+      }
+      
+}
+
 
 .product-1 {
     background-color: rgb(5, 76, 124);
@@ -343,6 +359,10 @@ input {
 .link2 ul li>a:hover {
     color: rgb(13, 190, 52);
 }
+
+
+
+
 /* Seccion para moviles cuando baje de 991 pixeles */
 
 @media(max-width:991px) {
@@ -409,7 +429,7 @@ input {
     }
 
     .product-content {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 30px; /* (gap) espacio entre filas y columnas */
     }
 
