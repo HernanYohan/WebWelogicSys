@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styleContacto.css"> <!--href hace referencia a la pagina de estilos a utilizar-->
+</head>
+
+<body>
+    <section class="menuBlanco">
+
+        <div class="menu container">
+            <img class="logo" src="Imagenes/NuevoLogo.png" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="Imagenes/menu2.png" class="menu-icono" alt="menu"><!--imagene Logo-->
+            </label>
+            <nav class="navbar"><!--navbar navegacion en una lista-->
+                <ul><!--(ul)lista ordenada-->
+                    <li><a href="index.html">Inicio</a></li><!--(li)elementos de una lista-->
+                    <li><a href="servicios.html">Servicios</a></li><!--(a)enlaces-->
+                    <li><a href="pqr.html">PQR</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </section>
+    <header class="header"><!--Cabecera de la pagina-->
+       
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Quienes somos</h1>
+                <p><!--(p)parrafos-->
+                    Welogicsys es una empresa que presta servicios y productos informáticos relacionados a AZURE, AWS, y
+                    SAS, nuestro enfoque está relacionado principalmente a soporte, implementación y optimización de las
+                    arquitecturas, contamos con más 10 años de experiencia realizando estas actividades, que nos han
+                    hecho expertos en la materia.</p>
+                <div class="butons">
+                    <a href="index.html" class="btn1">
+                        Informacion
+                    </a>
+                    <a href="servicios.html" class="btn2">
+                        Servicios
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>
+            ¿Estás interesado en nuestros servicios? ¡Contáctanos!
+        </h2>
+
+        <div class="contact-container">
+
+            <div class="contact-content">
+                <h3>Contacta con nosotros</h3>
+                <form action="https://formsubmit.co/welogicsys@gmail.com" method="POST">
+                    <ul>
+                        <li>
+                            <div class="espacio-vertical"><input type="text" name="Nombre" placeholder="Nombre" required>
+                                <!--Tipo de campo de escritura-->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="espacio-vertical"><input type="email" name="Correo" placeholder="Correo" required>
+                                <!--Tipo de campo de escritura-->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="espacio-vertical"><input type="number" name="Numero" placeholder="Telefono" required>
+                                <!--Tipo de campo de escritura-->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="espacio-vertical">
+                                <label for="tip">Tipo servicio:</label>
+                            </div>
+                            <select name="Tipo" id="tipo">
+                                <option value="Arquitectura">Arquitectura</option>
+                                <option value="Soporte Funcional">Soporte Funcional</option>
+                                <option value="Soporte Tecnico">Soporte Tecnico</option>
+                            </select>
+                        </li>
+                        <li>
+                            <div class="espacio-vertical"><textarea id="msg" placeholder="Mensaje" name="user_message"
+                                    required></textarea></div>
+                        </li>
+                        <li>
+                            <div class="boton-autorizacion">
+                                <input type="checkbox" id="autorizacion" name=" Autorizacion" value="autorizacion"
+                                    required />
+                                <label for="autorizacion">Autorizo el tratamiento de mis datos personales</label>
+                            </div>
+                        </li>
+                        <li>
+                            <!--Boton-->
+                            <div class="boton-modal">
+                                <label for="btn-modal">
+                                    Tratamiento de datos
+                                </label>
+                            </div>
+                            <!--Fin de Boton-->
+                            <!--Ventana Modal-->
+                            <input type="checkbox" id="btn-modal">
+                            <div class="container-modal">
+                                <div class="content-modal">
+                                    <h2>Ley de tratamiento de datos</h2>
+                                    <p>Welogicsys SAS se compromete a él buen manejo de datos según lo establecido en La
+                                        Ley 1266 de 2008 de protección de datos, Habeas Data.</p>
+                                    <div class="politica" >
+                                        <p><a href="terminos.html">Politica de datos</a></p>
+                                    </div>
+                                    <div class="btn-cerrar">
+                                        <label for="btn-modal">Cerrar</label>
+                                    </div>
+                                </div>
+                                <label for="btn-modal" class="cerrar-modal"></label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="espacio-vertical">
+                                <input type="submit" class="button" value="Enviar"><!--Boton-->
+                                <input type="hidden" name="_next" value="https://welogicsys.com/contacto.html">
+                                <input type="hidden" name="_captcha" value="false">
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer container"><!--Pie de la pagina-->
+        <div class="link">
+            <img class="logo" src="Imagenes/NuevoLogo.png" alt="">
+        </div>
+        <div class="link3">
+
+            <ul>
+                <li>
+                    <p>Mail: comercial@welogicsys.com</p>
+                </li>
+                <li>
+                    <p>Dir: CRA 72 Bis 152 B 25 T5 A307</p>
+                </li>
+                <li>
+                    <p>Tel: 3115772179</p>
+                </li>
+
+            </ul>
+        </div>
+        <div class="social-buttons">
+            <!-- Botón de LinkedIn -->
+            <a href="https://co.linkedin.com/company/welogicsys-sas" target="_blank">
+                <img src="Imagenes/Link.png" alt="LinkedIn">
+            </a>
+            <!-- Botón de Whatsapp -->
+            <a href="https://wa.me/3115772179/" target="_blank">
+                <img src="Imagenes/whats.png" alt="LinkedIn">
+            </a>
+        </div>
+        <div class="link2">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="pqr.html">PQR</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
