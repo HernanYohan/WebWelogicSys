@@ -488,8 +488,6 @@ textarea {
     margin: 11px;
     width: 500px;
 
-
-
 }
 
 .social-buttons a {
@@ -498,8 +496,12 @@ textarea {
 
 }
 
-
-
+.idioma {
+    display: flex;
+    width: 50px;
+    margin-top: -10px;
+    
+}
 
 .link {
     font-size: 17px;
