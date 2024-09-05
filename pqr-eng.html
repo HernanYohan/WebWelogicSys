@@ -21,11 +21,11 @@
                 <ul><!--(ul)lista ordenada-->
                     <!-- Botón de idioma -->
                     <li><a href="pqr.html">
-                        <img src="Imagenes/colombia-flag.png" class="idioma"></a></li>
-                    <li><a href="index-eng.html">Inicio</a></li><!--(li)elementos de una lista-->
-                    <li><a href="servicios-eng.html">Servicios</a></li><!--(a)enlaces-->
+                            <img src="Imagenes/colombia-flag.png" class="idioma"></a></li>
+                    <li><a href="index-eng.html">Home</a></li><!--(li)elementos de una lista-->
+                    <li><a href="servicios-eng.html">Services</a></li><!--(a)enlaces-->
                     <li><a href="pqr-eng.html">PQR</a></li>
-                    <li><a href="contacto-eng.html">Contacto</a></li>
+                    <li><a href="contacto-eng.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,18 +35,18 @@
 
         <div class="header-content container">
             <div class="header-txt">
-                <h1>Quienes somos</h1>
+                <h1>About us</h1>
                 <p><!--(p)parrafos-->
-                    Welogicsys es una empresa que presta servicios y productos informáticos relacionados a AZURE, AWS, y
-                    SAS, nuestro enfoque está relacionado principalmente a soporte, implementación y optimización de las
-                    arquitecturas, contamos con más 10 años de experiencia realizando estas actividades, que nos han
-                    hecho expertos en la materia.</p>
+                    Welogicsys is a company that provides IT products and services related to AZURE, AWS
+                    and SAS, our focus is primarily related to support, implementation, and optimization
+                    of the architectures, we have more than 10 years of experience carrying out these activities,
+                    which have given us made experts in the field.</p>
                 <div class="butons">
                     <a href="index-eng.html" class="btn1">
-                        Informacion
+                        Information
                     </a>
                     <a href="servicios-eng.html" class="btn2">
-                        Servicios
+                        Services
                     </a>
                 </div>
             </div>
@@ -55,7 +55,7 @@
 
     <main>
         <H2>
-            Peticiones quejas y reclamos
+            Requests, complaints and claims
         </H2>
 
         <div class="contact-container">
@@ -65,32 +65,30 @@
                 <form action="https://formsubmit.co/welogicsys@gmail.com" method="POST">
                     <ul>
                         <li>
-                            <div class="espacio-vertical"><input type="text" name="Nombre" placeholder="Nombre"
+                            <div class="espacio-vertical"><input type="text" name="Nombre" placeholder="Name" required>
+                                <!--Tipo de campo de escritura-->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="espacio-vertical"><input type="email" name="Correo" placeholder="Mail" required>
+                                <!--Tipo de campo de escritura-->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="espacio-vertical"><input type="number" name="Numero" placeholder="Phone"
                                     required>
                                 <!--Tipo de campo de escritura-->
                             </div>
                         </li>
                         <li>
-                            <div class="espacio-vertical"><input type="email" name="Correo" placeholder="Correo"
-                                    required>
-                                <!--Tipo de campo de escritura-->
-                            </div>
-                        </li>
-                        <li>
-                            <div class="espacio-vertical"><input type="number" name="Numero" placeholder="Telefono"
-                                    required>
-                                <!--Tipo de campo de escritura-->
-                            </div>
-                        </li>
-                        <li>
-                            <div class="espacio-vertical"><textarea id="msg" placeholder="Mensaje" name="Mensaje"
+                            <div class="espacio-vertical"><textarea id="msg" placeholder="Message" name="Mensaje"
                                     required></textarea></div>
                         </li>
                         <li>
                             <div class="boton-autorizacion">
                                 <input type="checkbox" id="autorizacion" name="Autorizacion" value="autorizacion"
                                     required />
-                                <label for="autorizacion">Autorizo el tratamiento de mis datos personales</label>
+                                <label for="autorizacion">I authorize the processing of my personal data</label>
                             </div>
 
                         </li>
@@ -98,7 +96,7 @@
                             <!--Boton-->
                             <div class="boton-modal">
                                 <label for="btn-modal">
-                                    Tratamiento de datos
+                                    Data Processing
                                 </label>
                             </div>
                             <!--Fin de Boton-->
@@ -106,14 +104,14 @@
                             <input type="checkbox" id="btn-modal">
                             <div class="container-modal">
                                 <div class="content-modal">
-                                    <h2>Ley de tratamiento de datos</h2>
-                                    <p>Welogicsys SAS se compromete a él buen manejo de datos según lo establecido en La
-                                        Ley 1266 de 2008 de protección de datos, Habeas Data.</p>
+                                    <h2>Data Processing Act</h2>
+                                    <p>Welogicsys SAS undertakes to the proper handling of data as set forth in the Law
+                                        1266 of 2008 on data protection, Habeas Data.</p>
                                     <div class="politica">
-                                        <p><a href="terminos-eng.html">Politica de datos</a></p>
+                                        <p><a href="terminos-eng.html">Data Policy</a></p>
                                     </div>
                                     <div class="btn-cerrar">
-                                        <label for="btn-modal">Cerrar</label>
+                                        <label for="btn-modal">Close</label>
                                     </div>
                                 </div>
                                 <label for="btn-modal" class="cerrar-modal"></label>
@@ -121,7 +119,7 @@
                         </li>
                         <li>
                             <div class="espacio-vertical">
-                                <input type="submit" class="button" value="Enviar"><!--Boton-->
+                                <input type="submit" class="button" value="Send"><!--Boton-->
                                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/pqr.html">
                                 <input type="hidden" name="_captcha" value="false">
                             </div>
@@ -144,7 +142,7 @@
                     <p>Mail: comercial@welogicsys.com</p>
                 </li>
                 <li>
-                    <p>Dir: CRA 72 Bis 152 B 25 T5 A307</p>
+                    <p>Address: CRA 72 Bis 152 B 25 T5 A307</p>
                 </li>
                 <li>
                     <p>Tel: 3115772179</p>
@@ -164,10 +162,10 @@
         </div>
         <div class="link2">
             <ul>
-                <li><a href="index-eng.html">Inicio</a></li>
-                <li><a href="servicios-eng.html">Servicios</a></li>
+                <li><a href="index-eng.html">Home</a></li>
+                <li><a href="servicios-eng.html">Services</a></li>
                 <li><a href="pqr-eng.html">PQR</a></li>
-                <li><a href="contacto-eng.html">Contacto</a></li>
+                <li><a href="contacto-eng.html">Contact</a></li>
             </ul>
         </div>
     </footer>
