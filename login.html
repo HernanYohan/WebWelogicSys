@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="stylePqr.css"> <!--href hace referencia a la pagina de estilos a utilizar-->
+</head>
+
+<body>
+    <section class="menuBlanco">
+
+        <div class="menu container">
+            <img class="logo" src="Imagenes/NuevoLogo.png" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="Imagenes/menu2.png" class="menu-icono" alt="menu"><!--imagene Logo-->
+            </label>
+            <nav class="navbar"><!--navbar navegacion en una lista-->
+                <ul><!--(ul)lista ordenada-->
+                    <!-- Botón de idioma -->
+                    <li><a href="pqr-eng.html">
+                        <img src="Imagenes/banderausa2.png" class="idioma"></a></li>
+                    <li><a href="index.html">Inicio</a></li><!--(li)elementos de una lista-->
+                    <li><a href="servicios.html">Servicios</a></li><!--(a)enlaces-->
+                    <li><a href="pqr.html">PQR</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </section>
+    <main>
+        <H2>
+           Inicia sesion 
+        </H2>
+
+        <div class="contact-container">
+
+            <div class="contact-content">
+                <h3>Credenciales</h3>
+                <form>
+                    <ul>
+                        <li>
+                            <div class="espacio-vertical"><input type="text" name="Nombre" placeholder="Usuario"
+                                    required>
+                                <!--Tipo de campo de escritura-->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="espacio-vertical"><input type="text" name="Correo" placeholder="Clave"
+                                    required>
+                                <!--Tipo de campo de escritura-->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="espacio-vertical">
+                                <input type="submit" class="button" value="Login"><!--Boton-->
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5500/pqr.html">
+                                <input type="hidden" name="_captcha" value="false">
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer container"><!--Pie de la pagina-->
+        <div class="link">
+            <img class="logo" src="Imagenes/NuevoLogo.png" alt="">
+        </div>
+        <div class="link3">
+
+            <ul>
+                <li>
+                    <p>Mail: comercial@welogicsys.com</p>
+                </li>
+                <li>
+                    <p>Dir: CRA 72 Bis 152 B 25 T5 A307</p>
+                </li>
+                <li>
+                    <p>Tel: 3115772179</p>
+                </li>
+
+            </ul>
+        </div>
+        <div class="social-buttons">
+            <!-- Botón de LinkedIn -->
+            <a href="https://co.linkedin.com/company/welogicsys-sas" target="_blank">
+                <img src="Imagenes/Link.png" alt="LinkedIn">
+            </a>
+            <!-- Botón de Whatsapp -->
+            <a href="https://wa.me/3115772179/" target="_blank">
+                <img src="Imagenes/whats.png" alt="LinkedIn">
+            </a>
+        </div>
+        <div class="link2">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="pqr.html">PQR</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
